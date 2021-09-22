@@ -1,0 +1,146 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+.wrapper {
+	background-color: #a3a9a4;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+}
+.text {
+	width: 500px;
+	background-color: aqua;
+	padding: 20px;
+	line-height: 20px;
+	text-indent: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	word-spacing: 10px;
+	text-align: justify;
+	margin: 0px 0px 25px 0px;
+}
+.link {
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0px 0px 30px 0px;
+}
+
+.text2 {
+	padding: 20px;
+	height: 300px;
+	background-color: #b0a0fc;
+	line-height: 50px;
+	text-indent: 50px;
+	text-align: justify;
+	overflow: auto;
+	font-size: 18px;
+}
+span {
+	display: block;
+	width: 250px;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	background-color: #bfc8ea;
+}
+.text3,
+.text4,
+.text5 {
+	display: inline-block;
+	background-color: #7b86aa;
+	max-width: 200px;
+	max-height: 250px;
+	padding: 15px;
+}
+.link2 {
+	background-color: #b8bfb5;
+	margin: 0px 0px 30px 0px;
+}
+.indent {
+	margin: 20px 0px 0px 0px;
+}
+.paragraph,
+.paragraph1,
+.paragraph2,
+.paragraph3,
+paragraph4 {
+	display: inline-block;
+	background-color: #e0daae;
+	max-width: 100px;
+	margin: 30px;
+	padding: 10px;
+}
+.shove {
+	background-color: bisque;
+	min-height: 150px;
+	padding: 30px;
+	letter-spacing: 10px;
+	line-height: 25px;
+	text-align: justify;
+	font-weight: 700;
+	font-size: 18px;
+}
+.shove2 {
+	background-color: cornsilk;
+	min-height: 150px;
+	padding: 30px;
+	width: 90%;
+	margin: -25px 0px 0px 0px;
+	line-height: 30px;
+	font-weight: 700;
+	letter-spacing: 15px;
+	text-transform: uppercase;
+}
+.scroll {
+	background-color: darkgoldenrod;
+	max-height: 200px;
+	overflow: auto;
+}
